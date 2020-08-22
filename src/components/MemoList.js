@@ -34,8 +34,6 @@ class MemoList extends React.Component {
     }
 }
 
-export default MemoList;
-
 const styles = StyleSheet.create({
     memoList: {
         width: '100%',
@@ -57,3 +55,5 @@ const styles = StyleSheet.create({
         color: '#a2a2a2',
     },
 })
+
+export default MemoList;
